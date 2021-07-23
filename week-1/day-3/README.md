@@ -43,11 +43,3 @@ ABC
 **[Spectacle](https://www.spectacleapp.com/)**  <br>
 - http://eloquentjavascript.net/13_dom.html
 - https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction#Interfaces_and_Objects
-
-
-
-
-
-
-
-

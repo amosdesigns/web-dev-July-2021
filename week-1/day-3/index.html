@@ -4,11 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      html {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+      *,
+      *:before,
+      *:after {
+        -webkit-box-sizing: inherit;
+        -moz-box-sizing: inherit;
+        box-sizing: inherit;
+      }
+      a {
+        outline: 10px;
+        outline-style: solid;
+         padding: 10px;
+      }
+    </style>
   </head>
   <body>
     <h1>What is CSS?</h1>
     <h2>We use CSS to add <em>styles</em> to the HTML elements on our page.</h2>
     <!-- inline style the span to be red -->
-    <p>We want to stlye this span: <span>The power of CSS</span></p>
+    <p>
+      We want to stlye this span:
+      <span style="color: red; border: 1px solid tomato; padding: 5px"
+        >The power of CSS</span
+      >
+      <a href="#">hello</a>
+    </p>
   </body>
 </html>

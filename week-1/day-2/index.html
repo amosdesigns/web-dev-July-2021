@@ -1,50 +1,128 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./styles/main.css">
-    <title>Document</title>
-
-</head>
-<body>
-
-<div>
-    <video width="400" height="400" controls loop autoplay>
-        <source src="video/nature.mp4" type="video/mp4">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <title>Document::Day2</title>
+    <style>
+      table {
+        margin-bottom: 300px;
+      }
+      table,
+      td {
+        border: 1px solid #333;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <video width="400" height="400" controls loop autoplay>
+        <source src="./video/introbfamcookings4.m4v" type="video/mp4" />
         Your browser does not support the video tag.
-    </video>
-</div>
+      </video>
+      <nav>
+        <ul>
+          <li>link</li>
+          <li>link</li>
+          <li>link</li>
+          <li>link</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <table>
+        <tbody>
+          <tr>
+            <td>The table body</td>
+            <td>with two columns</td>
+          </tr>
+        </tbody>
+        <thead>
+          <tr>
+            <th colspan="2">The table header</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <td>Footer content 1</td>
+            <td>Footer content 2</td>
+          </tr>
+        </tfoot>
+      </table>
 
-<div>
-    <audio controls>
-        <source src="./music/song1.mp3" type="audio/mpeg">
-        Your browser does not support the audio tag.
-    </audio>
-</div>
+      <div>
+        <table>
+          <tbody>
+            <tr>
+              <td>songs</td>
+              <td>Play</td>
+            </tr>
+            <tr>
+              <td>song1</td>
+              <td>
+                <div>
+                  <audio controls>
+                    <source src="./video/song2.mp3" type="audio/mpeg" />
+                    Your browser does not support the audio tag.
+                  </audio>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>song 2</td>
+              <td>
+                <div>
+                  <audio controls>
+                    <source src="./video/song2.mp3" type="audio/mpeg" />
+                    Your browser does not support the audio tag.
+                  </audio>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+          <thead>
+            <tr>
+              <th
+                colspan="2"
+                style="text-align: left;"
+              >
+                <h2>My Music Player</h2>
+              </th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+      <div>
+        <audio controls>
+          <source src="./video/song2.mp3" type="audio/mpeg" />
+          Your browser does not support the audio tag.
+        </audio>
+      </div>
+      <aside>
+        <form action="#">
+          <label for="name">name</label>
+          <input type="text" id="fullname" name="fullname" />
+          <br />
+          <label for="address">address</label>
+          <input type="text" name="address" id="address" />
+          <br />
+          <label for="DOB">Date of Birth</label>
+          <input type="text" id="DOB" name="DOB" />
+          <br />
+          <button>Submit</button>
+        </form>
+      </aside>
 
+      <!--Challege to vertically align the input fields no matter how long the label text is-->
+      <!--put the label and input tags in their own tables inside of a table row.-->
+    </main>
 
-<!--<form action="#">-->
-<!--    <label for="name">name</label>-->
-<!--    <input type="text" id="name">-->
-<!--    <br>-->
-<!--    <label for="address">address</label>-->
-<!--    <input type="text" id="address">-->
-<!--    <br>-->
-<!--    <label for="Date of Birth">Date of Birth</label>-->
-<!--    <input type="text" id="Date of Birth">-->
-<!--    <br>-->
-<!--<button>Submit</button>-->
-<!--</form>-->
-
-
-<!--Challege to vertically align the input fields no matter how long the label text is-->
-<!--put the label and input tags in their own tables inside of a table row.-->
-
-
-<div style="margin-bottom: 1000px"></div>
-
-</body>
+    <footer style="margin-bottom: 1000px"></footer>
+  </body>
 </html>

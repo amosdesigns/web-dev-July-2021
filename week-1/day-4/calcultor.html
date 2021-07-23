@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my calcultor</title>
+    <style type="text/css">
+      #cal {
+        background: gray;
+        display: block;
+        width: 400px;
+        color: white;
+        font-size: 25px;
+      }
+      #displaySrn {
+      }
+      .numberKeys {
+        display: flex;
+        background: darkgray;
+      }
+      .numPad {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
+      .numPad>div{text-align: center;}
+      .orgCalBtn{background: orange;}
+    </style>
+  </head>
+  <body>
+    <h1>My Calcultor</h1>
+    <main>
+      <section id="cal">
+        <nav><a href="">red</a><a href="">yellow</a><a href="">green</a></nav>
+        <div id="displaySrn">0</div>
+        <div class="numPad">
+          <div class="btnPower">AC</div>
+          <div class="btnPlusMin">&plusmn;</div>
+          <div class="btnPerc">&percnt;</div>
+          <div id="nump">9</div>
+          <div id="num0">8</div>
+          <div id="num1">7</div>
+          <div id="num2">6</div>
+          <div id="num3">5</div>
+          <div id="num4">4</div>
+          <div id="num5">3</div>
+          <div id="num6">2</div>
+          <div id="num7">1</div>
+          <div id="num8">0</div>
+          <div id="num9">.</div>
+          <div class="orgCalBtn">&divide;</div>
+          <div class="orgCalBtn">&times;</div>
+          <div class="orgCalBtn">&minus;</div>
+          <div class="orgCalBtn">&plus;</div>
+          <div class="orgCalBtn">&equals;</div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
